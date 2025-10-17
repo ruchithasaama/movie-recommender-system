@@ -1,5 +1,19 @@
-streamlit==1.49.1
-pandas==1.5.3
+# Core packages
+streamlit==1.27.0
+numpy==1.25.0
+pandas==2.1.1
 requests==2.32.5
-numpy==1.22.4
 gdown==5.2.0
+pickle5==0.0.12
+pillow==11.3.0
+
+# Build tools to avoid distutils errors
+setuptools>=68.0.0
+wheel>=1.0.0
+
+# Supporting libraries for Streamlit
+altair==5.5.0
+markdown-it-py==4.0.0
+mdurl==0.1.2
+pygments==2.19.2
+rich==14.2.0
